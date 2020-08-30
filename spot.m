@@ -1,8 +1,8 @@
 % code used in Implementation and assessment of a low-cost 3D
 %laser platform controlled by open software for
-%printing polymeric micro-structures; Camarena-Chávez et al. JMM(IOP)
-%any use should be reference as: Camarena-Chávez, V. A., Castro-Beltrán, R., 
-% Medina-Cázares, O. M., Álvarez-Martínez, J. U., Ramos-Ortiz, G., & Gutierrez-
+%printing polymeric micro-structures; Camarena-ChÃ¡vez et al. JMM(IOP)
+%any use should be reference as: Camarena-ChÃ¡vez, V. A., Castro-BeltrÃ¡n, R., 
+% Medina-CÃ¡zares, O. M., Ãlvarez-MartÃ­nez, J. U., Ramos-Ortiz, G., & Gutierrez-
 %Juarez, G. (2020). Implementation and assessment of a low-cost 
 %3D laser platform controlled by open software for printing 
 %polymeric micro-structures. Journal of Micromechanics and Microengineering.
@@ -98,7 +98,6 @@ pcolor(X2,Y2,I1);
 c = colorbar;
 c.Label.String = 'I (W)';
 shading interp
-title('      NA =0.25,z=15 um')
 set(gca,'Xtick',[-L_focal 0 L_focal])
 set(gca,'Ytick',[-L_focal 0 L_focal])
 set(gca,'Fontsize',14)
